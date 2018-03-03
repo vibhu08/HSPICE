@@ -1,0 +1,76 @@
+***** HSPICE -- H-2013.03 64-BIT (Mar  7 2013) win64 ******
+ Input File: sram22read.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   Dell                 HOSTNAME: DESKTOP-O3DHVG1
+ lic: HOSTID: "28f10e041fd4 a0d37a293ca4 a0d37a293ca5" PID:      13000
+ lic: Using FLEXlm license file:
+ lic: C:\synopsys\Hspice_H-2013.03\lic.dat\lic.lic
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12
+ lic: NODE LOCKED license on hostid "28f10e041fd4 a0d37a293ca4 a0d37a293ca5"
+ lic:
+ init: begin read circuit files,  cpu clock=  1.24E-01
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\behave\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\behave\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\AD\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\XILINX\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\TLINE\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\TI\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\SIGNET\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\PCI\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\LIN_TECH\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\FET\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\DIO\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\COMLINE\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\BURR_BRN\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\BJT\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\behave\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\AD\
+       option post =     2.00
+       option runlvl
+       option list
+       option node
+       option post
+       option post
+       option autostop
+       option ingold =     2.00
+       option dcon =     1.00
+       option gshunt =    1.000E-12
+       option rmin =    1.000E-15
+       option abstol =    1.000E-05
+       option absvdc =    1.000E-04
+       option reltol =    1.000E-02
+       option relvdc =    1.000E-02
+       option numdgt =     4.00
+       option pivot =     1.00
+       option parhier = local
+       option epsmin =    1.000E-99
+       option expmax =     37.0
+ init: end read circuit files,  cpu clock=  1.31E-01 peak memory=        38 mb
+ init: begin check errors,  cpu clock=  1.31E-01
+ init: end check errors,  cpu clock=  4.16E-01 peak memory=        51 mb
+ init: begin setup matrix, pivot=     1 cpu clock=  4.16E-01
+       establish matrix -- done,  cpu clock=  4.17E-01 peak memory=        51 mb
+       re-order matrix -- done,  cpu clock=  4.18E-01 peak memory=        51 mb
+ init: end setup matrix,  cpu clock=  4.21E-01 peak memory=        52 mb
+ dcop: begin dcop,  cpu clock=  4.21E-01
+ dcop: begin pseudo transient
+ dcop: ...succeeded
+ dcop: end pseudo transient
+ dcop: end dcop,  cpu clock=  8.23E+00 peak memory=        52 mb  tot_iter=     315
+ output: sram22read.tr0
+ sweep: tran tran0    begin, stop_t=  4.00E-08 #sweeps= 401 cpu clock=  8.23E+00
+ tran: time= 5.0000E-09 tot_iter=      14 conv_iter=       7 cpu clock= 8.52E+00
+ tran: time= 8.2338E-09 tot_iter=      59 conv_iter=      27 cpu clock= 9.44E+00
+ tran: time= 1.2004E-08 tot_iter=      97 conv_iter=      41 cpu clock= 1.02E+01
+ tran: time= 1.6080E-08 tot_iter=     187 conv_iter=      67 cpu clock= 1.21E+01
+ tran: time= 2.0000E-08 tot_iter=     322 conv_iter=     103 cpu clock= 1.48E+01
+ tran: time= 2.4414E-08 tot_iter=     387 conv_iter=     126 cpu clock= 1.62E+01
+ tran: time= 2.8215E-08 tot_iter=     544 conv_iter=     169 cpu clock= 1.94E+01
+ tran: time= 3.2500E-08 tot_iter=     580 conv_iter=     183 cpu clock= 2.01E+01
+ tran: time= 3.6296E-08 tot_iter=     632 conv_iter=     200 cpu clock= 2.12E+01
+ tran: time= 4.0000E-08 tot_iter=     636 conv_iter=     202 cpu clock= 2.13E+01
+ sweep: tran tran0    end,  cpu clock=  2.13E+01 peak memory=        52 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)

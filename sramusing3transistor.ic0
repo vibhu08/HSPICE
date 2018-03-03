@@ -1,0 +1,24 @@
+* "simulator" "HSPICE" 
+* "version" "H-2013.03 64-BIT"
+* "format" "HSP"
+* "rundate" "22:14:50 01/28/2018 "
+* "netlist" "sramusing3transistor.sp "
+* "runtitle" "'inverter'"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ n5 = 5.505e-03       
++ q = 4.460e-01       
++ qb = 4.463e-01       
++ rbl = 5.437e-03       
++ rwl = 0.000e+00       
++ rwlb = 9.000e-01       
++ vdd = 9.000e-01       
++ vddl = 4.500e-01       
++ wbl = 0.000e+00       
++ wwl = 0.000e+00       
++ wwlb = 9.000e-01       
+***   END: Saved Operating Point ***                     

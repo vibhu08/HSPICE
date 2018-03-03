@@ -1,0 +1,27 @@
+* "simulator" "HSPICE" 
+* "version" "H-2013.03 64-BIT"
+* "format" "HSP"
+* "rundate" "00:44:52 02/02/2018 "
+* "netlist" "sram180.sp "
+* "runtitle" "'inverter'"
+* time =  0.000e+00       
+* temperature =  2.500e+01       
+*** BEGIN: Saved Operating Point ***                     
+.option 
++ gmindc= 1.000e-12       
+.nodeset
++ n1 = 1.313e-02       
++ n2 = 8.866e-01       
++ n3 = 1.313e-02       
++ n4 = 8.866e-01       
++ n5 = 1.207e-04       
++ q = 4.495e-01       
++ qb = 4.495e-01       
++ rbl = 1.200e-04       
++ rwl = 0.000e+00       
++ rwlb = 0.000e+00       
++ vdd = 9.000e-01       
++ wbl = 0.000e+00       
++ wwl = 0.000e+00       
++ wwlb = 9.000e-01       
+***   END: Saved Operating Point ***                     
