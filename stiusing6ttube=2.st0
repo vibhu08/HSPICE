@@ -1,0 +1,61 @@
+***** HSPICE -- H-2013.03 64-BIT (Mar  7 2013) win64 ******
+ Input File: stiusing6ttube=2.sp
+ lic:
+ lic: FLEXlm: v10.9.8
+ lic: USER:   Dell                 HOSTNAME: DESKTOP-O3DHVG1
+ lic: HOSTID: "a0d37a293ca8 28f10e041fd4 a0d37a293ca4 a0d37a293ca5" PID:      12860
+ lic: Using FLEXlm license file:
+ lic: C:\synopsys\Hspice_H-2013.03\lic.dat\lic.lic
+ lic: Checkout 1 hspice
+ lic: License/Maintenance for hspice will expire on 31-dec-2019/2019.12
+ lic: NODE LOCKED license on hostid "a0d37a293ca8 28f10e041fd4 a0d37a293ca4 a0d37a293ca5"
+ lic:
+ init: begin read circuit files,  cpu clock=  6.20E-02
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\behave\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\behave\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\AD\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\XILINX\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\TLINE\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\TI\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\SIGNET\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\PCI\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\LIN_TECH\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\FET\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\DIO\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\COMLINE\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\BURR_BRN\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\BJT\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\behave\
+       option search = C:\synopsys\Hspice_H-2013.03\PARTS\AD\
+       option post =     2.00
+       option runlvl
+       option list
+       option node
+       option post
+       option post
+       option autostop
+       option ingold =     2.00
+       option dcon =     1.00
+       option gshunt =    1.000E-12
+       option rmin =    1.000E-15
+       option abstol =    1.000E-05
+       option absvdc =    1.000E-04
+       option reltol =    1.000E-02
+       option relvdc =    1.000E-02
+       option numdgt =     4.00
+       option pivot =     1.00
+       option parhier = local
+       option epsmin =    1.000E-99
+       option expmax =     37.0
+ init: end read circuit files,  cpu clock=  6.20E-02 peak memory=        38 mb
+ init: begin check errors,  cpu clock=  6.20E-02
+ init: end check errors,  cpu clock=  2.03E-01 peak memory=        43 mb
+ init: begin setup matrix, pivot=     1 cpu clock=  2.03E-01
+       establish matrix -- done,  cpu clock=  2.03E-01 peak memory=        43 mb
+       re-order matrix -- done,  cpu clock=  2.03E-01 peak memory=        43 mb
+ init: end setup matrix,  cpu clock=  2.03E-01 peak memory=        43 mb
+ output: stiusing6ttube=2.sw0
+ sweep: dc dc0    begin, #sweeps= 101 cpu clock=  2.03E-01
+ sweep: dc dc0    end,  cpu clock=  2.25E+00 peak memory=        44 mb
+>info:         ***** hspice job concluded
+ lic: Release hspice token(s)
